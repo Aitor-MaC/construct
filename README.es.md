@@ -8,6 +8,8 @@ Emulador de terminal nativo para macOS con estética Matrix: lluvia digital tras
 
 > Proyecto no oficial hecho por un fan. No está afiliado, respaldado ni relacionado con Warner Bros. ni con la franquicia *The Matrix*.
 
+![Construct: bloques de comandos, prompt con git y la pista de Apple Intelligence](docs/screenshots/blocks.png)
+
 ## Descarga
 
 Descarga el último DMG notarizado desde [Releases](../../releases): ábrelo y arrastra **Construct** a Aplicaciones. Requiere macOS 27.2 o posterior.
@@ -31,6 +33,10 @@ Descarga el último DMG notarizado desde [Releases](../../releases): ábrelo y a
 | R13 | Autocompletado | Sugerencia en gris desde tu historial; `→` o `⌃F` la aceptan. |
 | R14 | Búsqueda | Barra en el scrollback con contador. Resalta la coincidencia actual, no todas. |
 | R15 | IA local | `#…`, `# …` o `?? …` + `⏎` propone un comando; solo se inserta tras confirmar. |
+
+| «Wake up, Neo…» en cada ventana o pestaña nueva | Sugerencia de la IA local |
+|---|---|
+| ![Saludo Wake up](docs/screenshots/wake-up.png) | ![Tarjeta de sugerencia de la IA](docs/screenshots/ai-suggestion.png) |
 
 ## Idiomas
 

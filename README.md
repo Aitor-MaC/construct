@@ -8,6 +8,8 @@ A native macOS terminal emulator with a Matrix look: digital rain behind the tex
 
 > Unofficial fan project. Not affiliated with, endorsed by or connected to Warner Bros. or *The Matrix* franchise.
 
+![Construct: command blocks, git prompt and the Apple Intelligence hint](docs/screenshots/blocks.png)
+
 ## Download
 
 Get the latest notarized DMG from [Releases](../../releases): open it and drag **Construct** to Applications. Requires macOS 27.2 or later.
@@ -31,6 +33,10 @@ Get the latest notarized DMG from [Releases](../../releases): open it and drag *
 | R13 | Autosuggestions | Gray suggestion from your history; `→` or `⌃F` accepts it. |
 | R14 | Find | Bar over the scrollback with a counter. It highlights the current match, not all of them. |
 | R15 | On-device AI | `#…`, `# …` or `?? …` + `⏎` suggests a command; it’s only inserted after you confirm. |
+
+| “Wake up, Neo…” on every new window or tab | On-device AI suggestion |
+|---|---|
+| ![Wake up greeting](docs/screenshots/wake-up.png) | ![AI suggestion card](docs/screenshots/ai-suggestion.png) |
 
 ## Languages
 
