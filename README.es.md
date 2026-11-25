@@ -134,9 +134,13 @@ Escribe en el prompt una línea que empiece por `#`, `# ` o `??`, por ejemplo `#
 
 ## Licencia
 
-Construct se publica con la [licencia MIT](LICENSE). El nombre «Construct» y el icono de la app no forman parte de la licencia: si distribuyes una versión modificada, usa otro nombre y otro icono. Los componentes de terceros y sus licencias están en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Construct se publica con la [licencia MIT](LICENSE). El nombre «Construct» y el icono de la app no forman parte de la licencia: si distribuyes una versión modificada, usa otro nombre y otro icono (consulta [TRADEMARK.md](TRADEMARK.md)). Los componentes de terceros y sus licencias están en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Problemas de seguridad: consulta [SECURITY.md](SECURITY.md). Contribuciones: consulta [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Más apps
+
+Construct es obra de Aitor García. Encuentra mis otras apps para Mac en **[nexusappmx.com](https://nexusappmx.com)**.
 
 ## Créditos
 

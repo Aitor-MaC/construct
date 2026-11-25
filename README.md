@@ -136,9 +136,13 @@ Type a line that starts with `#`, `# ` or `??` at the prompt, for example `#inst
 
 ## License
 
-Construct is released under the [MIT License](LICENSE). The name “Construct” and the app icon are not covered by the license: please use a different name and icon for forks you distribute. Third-party components and their licenses are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Construct is released under the [MIT License](LICENSE). The name “Construct” and the app icon are not covered by the license: please use a different name and icon for forks you distribute (see [TRADEMARK.md](TRADEMARK.md)). Third-party components and their licenses are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Security issues: see [SECURITY.md](SECURITY.md). Contributions: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## More apps
+
+Construct is made by Aitor García. Find my other Mac apps at **[nexusappmx.com](https://nexusappmx.com)**.
 
 ## Credits
 
