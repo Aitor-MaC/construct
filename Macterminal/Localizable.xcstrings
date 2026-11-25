@@ -1,0 +1,1769 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      },
+      "comment" : "Two sentences joined with a space in the empty state of a terminal pane: the first is the session message, the second the usage hint."
+    },
+    "%@ (from file)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (del archivo)"
+          }
+        }
+      },
+      "comment" : "Font picker option for a font family set in the configuration file that isn't in the list; the argument is the family name."
+    },
+    "%@ is already used by “%@”." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ is already used by “%2$@”."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ya lo usa «%2$@»."
+          }
+        }
+      },
+      "comment" : "Error in the shortcut recorder: the first argument is the shortcut symbols, the second the name of the action that already uses it."
+    },
+    "%lld configuration warnings. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld configuration warnings. %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld avisos en la configuración. %2$@"
+          }
+        }
+      },
+      "comment" : "Toast shown when the configuration file has several problems; the first argument is the count, the second the description of the first problem."
+    },
+    "%lld points" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld puntos"
+          }
+        }
+      },
+      "comment" : "VoiceOver value of the font size stepper in Settings > Appearance; spoken in full, not abbreviated."
+    },
+    "%lld pt" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pt"
+          }
+        }
+      },
+      "comment" : "Visible font size in Settings > Appearance. pt is the abbreviation of points."
+    },
+    "A long path is cut on the left with …/ so there’s always room to type." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una ruta larga se recorta por la izquierda con …/ para que siempre quede sitio para escribir."
+          }
+        }
+      },
+      "comment" : "Description of the Folder picker in Settings > Prompt. …/ is shown literally in the prompt; keep it."
+    },
+    "AI" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IA"
+          }
+        }
+      },
+      "comment" : "Tab title in the Settings window for the AI suggestions options."
+    },
+    "Abbreviated (~/P/Construct)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abreviada (~/P/Construct)"
+          }
+        }
+      },
+      "comment" : "Option of the Folder picker in Settings > Prompt: every folder but the last reduced to its first letter. Keep the example path as is."
+    },
+    "Add ⌘, ⌃ or ⌥: without them the shortcut would fire while you type." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añade ⌘, ⌃ o ⌥: sin ellos el atajo saltaría al escribir."
+          }
+        }
+      },
+      "comment" : "Error under the shortcut recorder in Settings when the shortcut has no modifier key. ⌘ ⌃ ⌥ are the Command, Control and Option key symbols."
+    },
+    "Advanced" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanzado"
+          }
+        }
+      },
+      "comment" : "Tab title in the Settings window for advanced options (shell path, configuration file)."
+    },
+    "Always" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siempre"
+          }
+        }
+      },
+      "comment" : "Option of the User and computer picker in Settings > Prompt."
+    },
+    "Another app already uses that Quake shortcut. Choose another combination." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otra aplicación ya usa ese atajo Quake. Elige otra combinación."
+          }
+        }
+      },
+      "comment" : "Error in Settings when the global shortcut that shows the Quake terminal is taken by another app."
+    },
+    "Appearance" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apariencia"
+          }
+        }
+      },
+      "comment" : "Tab title in the Settings window for visual options (rain, font, greeting)."
+    },
+    "Apple Intelligence" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Intelligence"
+          }
+        }
+      },
+      "comment" : "Row label in Settings > AI. Apple's product name; keep it."
+    },
+    "Applies to new tabs and panes" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se aplica a pestañas y paneles nuevos"
+          }
+        }
+      },
+      "comment" : "Note in Settings: the change only affects tabs and panes opened afterwards."
+    },
+    "Autosuggestions" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autosugerencias"
+          }
+        }
+      },
+      "comment" : "Toggle title in Settings > Prompt for inline gray suggestions of the rest of the command."
+    },
+    "Available" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
+          }
+        }
+      },
+      "comment" : "AI availability status in Settings > AI: Apple Intelligence can be used."
+    },
+    "Background opacity" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opacidad del fondo"
+          }
+        }
+      },
+      "comment" : "Slider label in Settings > Appearance for how opaque the terminal window background is."
+    },
+    "Balanced" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equilibrado"
+          }
+        }
+      },
+      "comment" : "Name of the middle Matrix rain intensity level (between Subtle and Immersive). Used as a picker option."
+    },
+    "Blocks aren’t available: the integration only works with zsh. Check the shell in Settings > Advanced." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los bloques no están disponibles: la integración solo funciona con zsh. Revisa el shell en Ajustes > Avanzado."
+          }
+        }
+      },
+      "comment" : "Banner shown above the terminal when the command blocks feature is off because the shell isn't zsh. A block is one command with its output."
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      },
+      "comment" : "Button in the AI suggestion card that cancels the request while it is loading."
+    },
+    "Check Again" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver a comprobar"
+          }
+        }
+      },
+      "comment" : "Button in Settings > AI that asks the system again whether Apple Intelligence is available."
+    },
+    "Checking availability" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprobando disponibilidad"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the progress spinner in Settings > AI while availability is checked."
+    },
+    "Click to record a new shortcut; esc cancels." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa para grabar un atajo nuevo; esc cancela."
+          }
+        }
+      },
+      "comment" : "VoiceOver hint of the shortcut recorder button in Settings > Keyboard. esc is the Escape key."
+    },
+    "Close" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        }
+      },
+      "comment" : "Button that closes the AI suggestion card. Verb."
+    },
+    "Close (esc)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar (esc)"
+          }
+        }
+      },
+      "comment" : "Tooltip and label of the close button of the command palette; esc is the Escape key."
+    },
+    "Close search" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar la búsqueda"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the button that closes the find bar in the terminal."
+    },
+    "Command" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comando"
+          }
+        }
+      },
+      "comment" : "Name of the Command (⌘) modifier key, read by VoiceOver in shortcut descriptions."
+    },
+    "Command Palette" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paleta de comandos"
+          }
+        }
+      },
+      "comment" : "Title of the command palette window, read by VoiceOver."
+    },
+    "Configuration File" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archivo de configuración"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Advanced for the text file that stores the settings."
+    },
+    "Configuration reloaded" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración recargada"
+          }
+        }
+      },
+      "comment" : "Toast shown after the configuration file was edited outside the app and applied."
+    },
+    "Configuration warning. %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviso en la configuración. %@"
+          }
+        }
+      },
+      "comment" : "Toast shown when the configuration file has one problem. The argument is the description of the problem."
+    },
+    "Continue" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        }
+      },
+      "comment" : "Primary button of the first-launch screen that asks for the user's name. Verb."
+    },
+    "Control" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control"
+          }
+        }
+      },
+      "comment" : "Name of the Control (⌃) modifier key, read by VoiceOver in shortcut descriptions."
+    },
+    "Copied" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado"
+          }
+        }
+      },
+      "comment" : "Label of the Copy button for one second after the command was copied, and toast text. Past participle."
+    },
+    "Copy" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar"
+          }
+        }
+      },
+      "comment" : "Button on a command block that copies the command text to the clipboard. Verb, not a noun."
+    },
+    "Copy Command" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar comando"
+          }
+        }
+      },
+      "comment" : "Context menu item and VoiceOver action on a command block: copies the command that was run."
+    },
+    "Copy Output" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar salida"
+          }
+        }
+      },
+      "comment" : "Context menu item, button and VoiceOver action on a command block: copies the text the command printed."
+    },
+    "Create File" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear archivo"
+          }
+        }
+      },
+      "comment" : "Button in Settings > Advanced that creates the configuration file when it doesn't exist yet."
+    },
+    "Current" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actual"
+          }
+        }
+      },
+      "comment" : "Spoken suffix in the command palette for the setting value that is active now, read by VoiceOver."
+    },
+    "Dense rain, glowing text and scan lines." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lluvia densa, brillo en el texto y líneas de barrido."
+          }
+        }
+      },
+      "comment" : "Description of the Immersive rain intensity in the Settings picker."
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        }
+      },
+      "comment" : "Tooltip and VoiceOver label of the X button that hides the first-use hint of the terminal panes for good."
+    },
+    "Dismiss Notice" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar aviso"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the X button that hides the integration banner."
+    },
+    "Faint rain, no glow. For long working sessions." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lluvia tenue y sin brillo. Para trabajar horas."
+          }
+        }
+      },
+      "comment" : "Description of the Subtle rain intensity in the Settings picker."
+    },
+    "File Warnings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisos del archivo"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Advanced listing problems found in the configuration file."
+    },
+    "Find" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        }
+      },
+      "comment" : "Placeholder of the find bar text field in the terminal. Verb."
+    },
+    "Find in terminal" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar en la terminal"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the find bar container in the terminal window."
+    },
+    "Folder" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carpeta"
+          }
+        }
+      },
+      "comment" : "Picker title in Settings > Prompt for how the current folder path is shown. Noun."
+    },
+    "Font" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuente"
+          }
+        }
+      },
+      "comment" : "Picker label in Settings > Appearance for the terminal font family."
+    },
+    "Full path" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruta completa"
+          }
+        }
+      },
+      "comment" : "Option of the Folder picker in Settings > Prompt: the whole path, like ~/Projects/Construct."
+    },
+    "Greeting" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saludo"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Appearance for the personalized “Wake up” greeting shown at launch."
+    },
+    "Hello." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola."
+          }
+        }
+      },
+      "comment" : "First line typed on the first-launch screen before asking the user's name."
+    },
+    "History" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial"
+          }
+        }
+      },
+      "comment" : "Section header in the command palette for previously run commands, and label of the history loading state."
+    },
+    "Immersive" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inmersivo"
+          }
+        }
+      },
+      "comment" : "Name of the strongest Matrix rain intensity level. Used as a picker option."
+    },
+    "Insert" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insertar"
+          }
+        }
+      },
+      "comment" : "Button of the AI suggestion card that writes the suggested command into the prompt without running it. Verb."
+    },
+    "Intensity" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intensidad"
+          }
+        }
+      },
+      "comment" : "Picker label in Settings > Appearance for the Matrix rain intensity."
+    },
+    "Keyboard" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teclado"
+          }
+        }
+      },
+      "comment" : "Tab title in the Settings window for keyboard shortcuts."
+    },
+    "Leave empty to use your login shell." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vacío usa el shell de tu sesión."
+          }
+        }
+      },
+      "comment" : "Hint under the shell path field in Settings > Advanced."
+    },
+    "Line %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Línea %lld"
+          }
+        }
+      },
+      "comment" : "Prefix of a configuration file warning, row in Settings > Advanced; the number is the line in the file."
+    },
+    "Line %lld: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Line %1$lld: %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Línea %1$lld: %2$@"
+          }
+        }
+      },
+      "comment" : "Toast text for the first configuration warning: line number, then the description of the problem."
+    },
+    "Loading history" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando historial"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the progress indicator in the command palette while history loads."
+    },
+    "Location" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubicación"
+          }
+        }
+      },
+      "comment" : "Row label in Settings > Advanced for the path of the configuration file."
+    },
+    "Construct prompt" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prompt de Construct"
+          }
+        }
+      },
+      "comment" : "Toggle title in Settings > Prompt for the custom shell prompt. Construct is the app name."
+    },
+    "Construct’s configuration couldn’t be loaded." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo cargar la configuración de Construct."
+          }
+        }
+      },
+      "comment" : "Description of the Settings window when the configuration store is unavailable."
+    },
+    "Matrix Rain" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lluvia Matrix"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Appearance for the falling-characters background effect. “Matrix” refers to the film."
+    },
+    "Never" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nunca"
+          }
+        }
+      },
+      "comment" : "Option of the User and computer picker in Settings > Prompt."
+    },
+    "New session in %@." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión nueva en %@."
+          }
+        }
+      },
+      "comment" : "Message of the empty state of a terminal pane; the argument is the current folder path."
+    },
+    "New session." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesión nueva."
+          }
+        }
+      },
+      "comment" : "Message of the empty state of a terminal pane when the folder is unknown."
+    },
+    "Next (⏎)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente (⏎)"
+          }
+        }
+      },
+      "comment" : "Tooltip of the button that goes to the next find match; ⏎ is the Return key."
+    },
+    "Next match" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coincidencia siguiente"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the button that goes to the next find match."
+    },
+    "No shortcut" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin atajo"
+          }
+        }
+      },
+      "comment" : "Value of a shortcut recorder that has no key combination assigned."
+    },
+    "No warnings: every line was read correctly." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin avisos: todas las líneas se leyeron bien."
+          }
+        }
+      },
+      "comment" : "Message in Settings > Advanced when the configuration file has no problems."
+    },
+    "Not Now" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora no"
+          }
+        }
+      },
+      "comment" : "Secondary button of the first-launch screen: skips giving a name. Same meaning as “Later”."
+    },
+    "Not available" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No disponible"
+          }
+        }
+      },
+      "comment" : "AI availability status in Settings > AI: Apple Intelligence cannot be used."
+    },
+    "Nothing matches. Try another word or press esc to go back." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nada coincide. Prueba con otra palabra o pulsa esc para volver."
+          }
+        }
+      },
+      "comment" : "Empty state of the command palette search; esc is the Escape key."
+    },
+    "Open Palette" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir paleta"
+          }
+        }
+      },
+      "comment" : "Label of the hint in the empty state that explains how to open the command palette."
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir Ajustes"
+          }
+        }
+      },
+      "comment" : "Action in the toast or menu that opens the Settings window."
+    },
+    "Open in Editor" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir en el editor"
+          }
+        }
+      },
+      "comment" : "Button in Settings > Advanced that opens the configuration file in a text editor."
+    },
+    "Option" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opción"
+          }
+        }
+      },
+      "comment" : "Name of the Option (⌥) modifier key, read by VoiceOver in shortcut descriptions."
+    },
+    "Output copied" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salida copiada"
+          }
+        }
+      },
+      "comment" : "Toast shown after the output of a command block was copied to the clipboard."
+    },
+    "Over SSH or as root" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por SSH o como root"
+          }
+        }
+      },
+      "comment" : "Option of the User and computer picker in Settings > Prompt: only shown in an SSH session or when the user is root. SSH and root are technical terms; keep them."
+    },
+    "Press the shortcut…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa el atajo…"
+          }
+        }
+      },
+      "comment" : "Prompt shown in the shortcut recorder while it waits for a key combination."
+    },
+    "Preview of the %@ intensity" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vista previa de la intensidad %@"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the rain preview in the Settings picker; the argument is the intensity name (Subtle, Balanced, Immersive)."
+    },
+    "Previous (⇧⏎)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anterior (⇧⏎)"
+          }
+        }
+      },
+      "comment" : "Tooltip of the button that goes to the previous find match; ⇧⏎ is Shift+Return."
+    },
+    "Previous match" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coincidencia anterior"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the button that goes to the previous find match."
+    },
+    "Process running" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proceso en ejecución"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the terminal window while a command is running."
+    },
+    "Prompt" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prompt"
+          }
+        }
+      },
+      "comment" : "Tab title in the Settings window for the shell prompt options. “Prompt” is the line where you type a command."
+    },
+    "Reads the file again (⌘R)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vuelve a leer el archivo (⌘R)"
+          }
+        }
+      },
+      "comment" : "Tooltip of the Reload button in Settings > Advanced; ⌘R is Command+R."
+    },
+    "Recording" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grabando"
+          }
+        }
+      },
+      "comment" : "VoiceOver value of the shortcut recorder while it is waiting for a key combination."
+    },
+    "Reload" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recargar"
+          }
+        }
+      },
+      "comment" : "Button in Settings > Advanced that reads the configuration file again. Verb."
+    },
+    "Repeat" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repetir"
+          }
+        }
+      },
+      "comment" : "Button on a command block that runs the same command again. Verb."
+    },
+    "Retry Without Integration" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reintentar sin integración"
+          }
+        }
+      },
+      "comment" : "Button shown when the zsh integration failed: starts the shell again without command blocks."
+    },
+    "SF Mono (system)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Mono (sistema)"
+          }
+        }
+      },
+      "comment" : "Name of the system monospaced font option in the font picker. SF Mono is Apple's font name; keep it."
+    },
+    "Saves the name and shows the greeting." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda el nombre y muestra el saludo."
+          }
+        }
+      },
+      "comment" : "Accessibility hint of the Continue button on the first-launch screen."
+    },
+    "Search commands" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar comandos"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the command palette search field."
+    },
+    "Search for an action, a setting or a previous command" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Busca una acción, un ajuste o un comando anterior"
+          }
+        }
+      },
+      "comment" : "Placeholder of the command palette search field."
+    },
+    "Settings Unavailable" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes no disponibles"
+          }
+        }
+      },
+      "comment" : "Title of the Settings window when the configuration store is unavailable."
+    },
+    "Shell" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shell"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Advanced for the command interpreter (zsh). Noun, not the Unix term translated literally if a standard one exists."
+    },
+    "Shell path" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruta del shell"
+          }
+        }
+      },
+      "comment" : "Label of the text field in Settings > Advanced for the executable path of the shell."
+    },
+    "Shift" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mayúsculas"
+          }
+        }
+      },
+      "comment" : "Name of the Shift (⇧) modifier key, read by VoiceOver in shortcut descriptions."
+    },
+    "Shift Command P" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mayúsculas Comando P"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the Shift+Command+P shortcut hint; keep the key order."
+    },
+    "Show or hide the Quake terminal" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar u ocultar la terminal Quake"
+          }
+        }
+      },
+      "comment" : "Label of the global shortcut row in Settings > Keyboard. The Quake terminal is a window that slides down from the top of the screen, as in the game Quake."
+    },
+    "Shows the current folder and git branch in Construct’s colors." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muestra la carpeta actual y la rama de git con los colores de Construct."
+          }
+        }
+      },
+      "comment" : "Description of the Construct prompt toggle in Settings > Prompt."
+    },
+    "Size" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamaño"
+          }
+        }
+      },
+      "comment" : "Label of the font size control in Settings > Appearance. Noun."
+    },
+    "Space" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espacio"
+          }
+        }
+      },
+      "comment" : "Name of the Space bar key in a shortcut shown on screen (capitalized)."
+    },
+    "Starts the prompt with your user name and the computer’s name." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empieza el prompt con tu nombre de usuario y el nombre del equipo."
+          }
+        }
+      },
+      "comment" : "Description of the User and computer picker in Settings > Prompt."
+    },
+    "Subtle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sutil"
+          }
+        }
+      },
+      "comment" : "Name of the weakest Matrix rain intensity level. Used as a picker option."
+    },
+    "Suggestion" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sugerencia"
+          }
+        }
+      },
+      "comment" : "Title of the AI suggestion card that proposes a shell command. Noun."
+    },
+    "Suggests the rest of the command in gray based on your history. Accept it with →." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Propone en gris el final del comando según tu historial. Acéptalo con →."
+          }
+        }
+      },
+      "comment" : "Description of the Autosuggestions toggle in Settings > Prompt."
+    },
+    "Terminal" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal"
+          }
+        }
+      },
+      "comment" : "Title of the Terminal menu in the menu bar."
+    },
+    "Text" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto"
+          }
+        }
+      },
+      "comment" : "Section title in Settings > Appearance for font options. Noun."
+    },
+    "Text to find" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto a buscar"
+          }
+        }
+      },
+      "comment" : "VoiceOver label of the find bar text field."
+    },
+    "That key can’t be used as a global shortcut." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esa tecla no se puede usar como atajo global."
+          }
+        }
+      },
+      "comment" : "Error in the shortcut recorder when the pressed key can't be registered system-wide."
+    },
+    "That path isn’t an executable program. Enter a full path, such as /bin/zsh." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esa ruta no es un programa ejecutable. Escribe una ruta completa, como /bin/zsh."
+          }
+        }
+      },
+      "comment" : "Error under the shell path field in Settings > Advanced."
+    },
+    "The Quake shortcut couldn’t be registered. Try another combination." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo registrar el atajo Quake. Prueba con otra combinación."
+          }
+        }
+      },
+      "comment" : "Toast shown when the system refuses the global shortcut for the Quake terminal."
+    },
+    "The Quake shortcut needs cmd, ctrl, alt or shift so it doesn’t steal keystrokes." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El atajo Quake necesita cmd, ctrl, alt o shift para no robar teclas."
+          }
+        }
+      },
+      "comment" : "Warning about the config file value of the Quake shortcut. cmd, ctrl, alt and shift are literal words typed in the config file; do not translate them."
+    },
+    "The Quake shortcut uses a key that can’t be registered: %@. Choose another one." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El atajo Quake usa una tecla que no se puede registrar: %@. Elige otra."
+          }
+        }
+      },
+      "comment" : "Warning about the Quake shortcut; the argument is the key name from the config file."
+    },
+    "The bundled font wasn’t found: %@." : {
+      "comment" : "Toast shown at launch when a font file shipped inside the app is missing; the argument is the font file name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The bundled font wasn’t found: %@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró la fuente incluida: %@."
+          }
+        }
+      }
+    },
+    "The file couldn’t be opened. Open it from Finder." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo abrir el archivo. Ábrelo desde Finder."
+          }
+        }
+      },
+      "comment" : "Error toast when the configuration file can't be opened in an editor."
+    },
+    "The file location isn’t available." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ubicación del archivo no está disponible."
+          }
+        }
+      },
+      "comment" : "Error toast when the path of the configuration file can't be determined."
+    },
+    "The font couldn’t be registered: %@." : {
+      "comment" : "Toast shown at launch when the system refuses to register a font shipped inside the app; the argument is the font file name.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The font couldn’t be registered: %@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo registrar la fuente: %@."
+          }
+        }
+      }
+    },
+    "The prompt has changed. Choose it again." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El prompt ha cambiado. Vuelve a elegirlo."
+          }
+        }
+      },
+      "comment" : "Error toast when the command block action refers to a prompt that is gone."
+    },
+    "The prompt has changed. Click Repeat again." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El prompt ha cambiado. Pulsa Repetir otra vez."
+          }
+        }
+      },
+      "comment" : "Error toast shown when the user clicks Repeat on a block after the prompt changed; Repeat is the button name."
+    },
+    "The prompt isn’t active. Wait for the command to finish and try again." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El prompt no está activo. Espera a que termine el comando y vuelve a probar."
+          }
+        }
+      },
+      "comment" : "Error toast when inserting a command while another command is still running."
+    },
+    "The zsh integration didn’t start. Check whether your .zshrc overrides precmd or preexec." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No llegó la integración de zsh. Revisa si tu .zshrc sobrescribe precmd o preexec."
+          }
+        }
+      },
+      "comment" : "Banner shown when the shell integration script did not report a prompt. .zshrc, precmd and preexec are zsh names; do not translate them."
+    },
+    "There’s no app to edit text. Open the file from Finder." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay ninguna app para editar texto. Abre el archivo desde Finder."
+          }
+        }
+      },
+      "comment" : "Error toast when no application can open the configuration file."
+    },
+    "This command can’t be written to the prompt." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este comando no se puede escribir en el prompt."
+          }
+        }
+      },
+      "comment" : "Error toast when a command contains characters that are not safe to type into the prompt."
+    },
+    "This kind of link can’t be opened from the terminal." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este tipo de enlace no se abre desde la terminal."
+          }
+        }
+      },
+      "comment" : "Toast shown when the user Command-clicks a link whose scheme is blocked."
+    },
+    "Type # or ?? followed by what you want, for example “#install powershell with homebrew”. Construct suggests a command that you review before running it. Everything is processed on this Mac." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe # o ?? seguido de lo que quieres, por ejemplo «#instala powershell con homebrew». Construct propone un comando que revisas antes de ejecutarlo. Todo se procesa en este Mac."
+          }
+        }
+      },
+      "comment" : "Explanation in Settings > AI of how to ask for a command suggestion. Keep the # and ?? characters."
+    },
+    "Type a command, or open the palette to change the intensity, search your history or open a folder." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe un comando o abre la paleta para cambiar de intensidad, buscar en el historial o abrir una ruta."
+          }
+        }
+      },
+      "comment" : "Hint of the empty state of a terminal pane."
+    },
+    "Type how you want Construct to greet you." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe cómo quieres que te salude Construct."
+          }
+        }
+      },
+      "comment" : "VoiceOver hint of the name text field in Settings > Appearance."
+    },
+    "Use at least ⌘, ⌃ or ⌥. Esc cancels." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa al menos ⌘, ⌃ o ⌥. Esc cancela."
+          }
+        }
+      },
+      "comment" : "Hint shown under the shortcut recorder while recording. ⌘ ⌃ ⌥ are Command, Control and Option; Esc is Escape."
+    },
+    "Used in the “Wake up” greeting. Leave empty to use your macOS account name." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa en el saludo «Wake up». Vacío, usa el nombre de tu cuenta de macOS."
+          }
+        }
+      },
+      "comment" : "Hint under the name field in Settings. “Wake up” is the name of the launch greeting animation, a Matrix film reference."
+    },
+    "Used in the “Wake up” greeting. You can change it in Settings." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa en el saludo «Wake up». Puedes cambiarlo en Ajustes."
+          }
+        }
+      },
+      "comment" : "Hint on the first-launch screen under the name field. “Wake up” is the name of the launch greeting animation."
+    },
+    "User and computer" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuario y equipo"
+          }
+        }
+      },
+      "comment" : "Picker title in Settings > Prompt for when the prompt starts with the user name and the computer name (user@computer)."
+    },
+    "Uses your macOS account name and doesn’t ask again." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el nombre de tu cuenta de macOS y no vuelve a preguntar."
+          }
+        }
+      },
+      "comment" : "Accessibility hint of the Not Now button on the first-launch screen."
+    },
+    "Visible rain and a slight glow on the accent." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lluvia visible y un ligero brillo en el acento."
+          }
+        }
+      },
+      "comment" : "Description of the Balanced rain intensity in the Settings picker."
+    },
+    "Wait for the prompt to come back to repeat the command." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espera a que vuelva el prompt para repetir el comando."
+          }
+        }
+      },
+      "comment" : "Error toast shown when the user clicks Repeat while another command is running."
+    },
+    "What’s your name?" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cómo te llamas?"
+          }
+        }
+      },
+      "comment" : "Second line typed on the first-launch screen asking the user's name."
+    },
+    "Works from any app. The terminal slides down from the top edge of the screen." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funciona desde cualquier app. La terminal baja desde el borde superior de la pantalla."
+          }
+        }
+      },
+      "comment" : "Description of the Quake shortcut row in Settings > Keyboard."
+    },
+    "Writes the command to the prompt without running it" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe el comando en el prompt sin ejecutarlo"
+          }
+        }
+      },
+      "comment" : "Tooltip of the Repeat button on a command block."
+    },
+    "Your name" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu nombre"
+          }
+        }
+      },
+      "comment" : "Placeholder of the name text field on the first-launch screen and in Settings."
+    },
+    "apply" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aplicar"
+          }
+        }
+      },
+      "comment" : "Keyboard hint at the bottom of the command palette next to the Return key. Lowercase verb: “Return to apply”."
+    },
+    "close" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerrar"
+          }
+        }
+      },
+      "comment" : "Keyboard hint at the bottom of the command palette next to the Esc key. Lowercase verb."
+    },
+    "down arrow" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flecha abajo"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Down Arrow key, read by VoiceOver."
+    },
+    "escape" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escape"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Escape key, read by VoiceOver."
+    },
+    "grave accent" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "acento grave"
+          }
+        }
+      },
+      "comment" : "Spoken name of the backtick key (`), read by VoiceOver."
+    },
+    "left arrow" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flecha izquierda"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Left Arrow key, read by VoiceOver."
+    },
+    "return" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "retorno"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Return key, read by VoiceOver."
+    },
+    "right arrow" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flecha derecha"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Right Arrow key, read by VoiceOver."
+    },
+    "select" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elegir"
+          }
+        }
+      },
+      "comment" : "Keyboard hint at the bottom of the command palette next to the up/down arrow keys. Lowercase verb: “arrows to select”."
+    },
+    "space" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espacio"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Space bar key, read by VoiceOver."
+    },
+    "tab" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tabulador"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Tab key, read by VoiceOver (not a window tab)."
+    },
+    "up arrow" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flecha arriba"
+          }
+        }
+      },
+      "comment" : "Spoken name of the Up Arrow key, read by VoiceOver."
+    },
+    "Open Apple Intelligence Settings…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir ajustes de Apple Intelligence…"
+          }
+        }
+      },
+      "comment" : "Button in Settings > AI that opens the Apple Intelligence & Siri pane of System Settings."
+    },
+    "macOS downloads the model automatically when the Mac is on Wi-Fi and power. This status updates by itself when it’s ready." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS descarga el modelo automáticamente cuando el Mac está conectado a Wi-Fi y a la corriente. Este estado se actualiza solo cuando esté listo."
+          }
+        }
+      },
+      "comment" : "Footer in Settings > AI while the Apple Intelligence model is still downloading."
+    }
+  },
+  "version" : "1.0"
+}

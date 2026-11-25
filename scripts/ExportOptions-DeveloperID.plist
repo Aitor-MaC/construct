@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Distribución fuera de la App Store, firmada con Developer ID (requisito para notarizar). -->
+	<key>method</key>
+	<string>developer-id</string>
+	<!-- scripts/notarize.sh rellena el equipo (TEAM_ID o el del certificado del Llavero). -->
+	<key>teamID</key>
+	<string>TEAM_ID</string>
+	<!-- Firma manual: la app no usa sandbox ni entitlements restringidos, así que no necesita perfil. -->
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>signingCertificate</key>
+	<string>Developer ID Application</string>
+	<key>destination</key>
+	<string>export</string>
+</dict>
+</plist>

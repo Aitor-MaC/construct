@@ -1,0 +1,7 @@
+build/
+.build/
+DerivedData/
+xcuserdata/
+.claude/worktrees/
+scripts/dmg/background-preview.png
+__pycache__/

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <clipPath id="shape"><rect x="100" y="100" width="824" height="824" rx="185" ry="185"/></clipPath>
+  <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+    <stop offset="0" stop-color="#0F2214"/>
+    <stop offset="0.6" stop-color="#07100A"/>
+    <stop offset="1" stop-color="#050806"/>
+  </radialGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/>
+    <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="14" result="b1"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b2"/>
+    <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter>
+  <filter id="drop" x="-10%" y="-10%" width="120%" height="125%">
+    <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+  </filter>
+</defs>
+<g filter="url(#drop)">
+  <g clip-path="url(#shape)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    
+    <g filter="url(#soft)"><text x="0" y="0" transform="translate(120,494) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾊ</text>
+<text x="0" y="0" transform="translate(120,448) scale(-1,1)" fill="#00FF41" fill-opacity="0.186" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">0</text>
+<text x="0" y="0" transform="translate(120,402) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｴ</text>
+<text x="0" y="0" transform="translate(120,356) scale(-1,1)" fill="#00FF41" fill-opacity="0.124" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｵ</text>
+<text x="0" y="0" transform="translate(120,310) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">:</text>
+<text x="0" y="0" transform="translate(120,264) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾓ</text>
+<text x="0" y="0" transform="translate(120,218) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｷ</text>
+<text x="0" y="0" transform="translate(120,172) scale(-1,1)" fill="#00FF41" fill-opacity="0.032" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾈ</text>
+<text x="0" y="0" transform="translate(120,126) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾖ</text>
+<text x="0" y="0" transform="translate(120,80) scale(-1,1)" fill="#00FF41" fill-opacity="0.006" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｴ</text>
+<text x="0" y="0" transform="translate(188,332) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｶ</text>
+<text x="0" y="0" transform="translate(188,286) scale(-1,1)" fill="#00FF41" fill-opacity="0.178" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾌ</text>
+<text x="0" y="0" transform="translate(188,240) scale(-1,1)" fill="#00FF41" fill-opacity="0.139" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾋ</text>
+<text x="0" y="0" transform="translate(188,194) scale(-1,1)" fill="#00FF41" fill-opacity="0.104" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｵ</text>
+<text x="0" y="0" transform="translate(188,148) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾀ</text>
+<text x="0" y="0" transform="translate(188,102) scale(-1,1)" fill="#00FF41" fill-opacity="0.046" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｶ</text>
+<text x="0" y="0" transform="translate(246,804) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｸ</text>
+<text x="0" y="0" transform="translate(246,758) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｿ</text>
+<text x="0" y="0" transform="translate(246,712) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾜ</text>
+<text x="0" y="0" transform="translate(246,666) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾜ</text>
+<text x="0" y="0" transform="translate(246,620) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾖ</text>
+<text x="0" y="0" transform="translate(315,838) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｴ</text>
+<text x="0" y="0" transform="translate(315,792) scale(-1,1)" fill="#00FF41" fill-opacity="0.195" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｿ</text>
+<text x="0" y="0" transform="translate(315,746) scale(-1,1)" fill="#00FF41" fill-opacity="0.172" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｳ</text>
+<text x="0" y="0" transform="translate(315,700) scale(-1,1)" fill="#00FF41" fill-opacity="0.150" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾔ</text>
+<text x="0" y="0" transform="translate(315,654) scale(-1,1)" fill="#00FF41" fill-opacity="0.128" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｹ</text>
+<text x="0" y="0" transform="translate(315,608) scale(-1,1)" fill="#00FF41" fill-opacity="0.108" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾃ</text>
+<text x="0" y="0" transform="translate(315,562) scale(-1,1)" fill="#00FF41" fill-opacity="0.090" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾋ</text>
+<text x="0" y="0" transform="translate(315,516) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｺ</text>
+<text x="0" y="0" transform="translate(315,470) scale(-1,1)" fill="#00FF41" fill-opacity="0.057" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾓ</text>
+<text x="0" y="0" transform="translate(315,424) scale(-1,1)" fill="#00FF41" fill-opacity="0.042" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｸ</text>
+<text x="0" y="0" transform="translate(315,378) scale(-1,1)" fill="#00FF41" fill-opacity="0.030" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾕ</text>
+<text x="0" y="0" transform="translate(315,332) scale(-1,1)" fill="#00FF41" fill-opacity="0.019" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾄ</text>
+<text x="0" y="0" transform="translate(315,286) scale(-1,1)" fill="#00FF41" fill-opacity="0.010" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾔ</text>
+<text x="0" y="0" transform="translate(315,240) scale(-1,1)" fill="#00FF41" fill-opacity="0.003" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">:</text>
+<text x="0" y="0" transform="translate(377,843) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾕ</text>
+<text x="0" y="0" transform="translate(377,797) scale(-1,1)" fill="#00FF41" fill-opacity="0.164" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾜ</text>
+<text x="0" y="0" transform="translate(377,751) scale(-1,1)" fill="#00FF41" fill-opacity="0.115" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｽ</text>
+<text x="0" y="0" transform="translate(377,705) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾈ</text>
+<text x="0" y="0" transform="translate(377,659) scale(-1,1)" fill="#00FF41" fill-opacity="0.038" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｷ</text>
+<text x="0" y="0" transform="translate(377,613) scale(-1,1)" fill="#00FF41" fill-opacity="0.013" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾔ</text>
+<text x="0" y="0" transform="translate(439,493) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾘ</text>
+<text x="0" y="0" transform="translate(439,447) scale(-1,1)" fill="#00FF41" fill-opacity="0.195" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｾ</text>
+<text x="0" y="0" transform="translate(439,401) scale(-1,1)" fill="#00FF41" fill-opacity="0.172" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾐ</text>
+<text x="0" y="0" transform="translate(439,355) scale(-1,1)" fill="#00FF41" fill-opacity="0.150" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">2</text>
+<text x="0" y="0" transform="translate(439,309) scale(-1,1)" fill="#00FF41" fill-opacity="0.128" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾓ</text>
+<text x="0" y="0" transform="translate(439,263) scale(-1,1)" fill="#00FF41" fill-opacity="0.108" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾌ</text>
+<text x="0" y="0" transform="translate(439,217) scale(-1,1)" fill="#00FF41" fill-opacity="0.090" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">8</text>
+<text x="0" y="0" transform="translate(439,171) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾅ</text>
+<text x="0" y="0" transform="translate(439,125) scale(-1,1)" fill="#00FF41" fill-opacity="0.057" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾎ</text>
+<text x="0" y="0" transform="translate(439,79) scale(-1,1)" fill="#00FF41" fill-opacity="0.042" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾖ</text>
+<text x="0" y="0" transform="translate(507,646) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾀ</text>
+<text x="0" y="0" transform="translate(507,600) scale(-1,1)" fill="#00FF41" fill-opacity="0.186" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">9</text>
+<text x="0" y="0" transform="translate(507,554) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｼ</text>
+<text x="0" y="0" transform="translate(507,508) scale(-1,1)" fill="#00FF41" fill-opacity="0.124" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">3</text>
+<text x="0" y="0" transform="translate(507,462) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">8</text>
+<text x="0" y="0" transform="translate(507,416) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾀ</text>
+<text x="0" y="0" transform="translate(507,370) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｶ</text>
+<text x="0" y="0" transform="translate(507,324) scale(-1,1)" fill="#00FF41" fill-opacity="0.032" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾕ</text>
+<text x="0" y="0" transform="translate(507,278) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾄ</text>
+<text x="0" y="0" transform="translate(507,232) scale(-1,1)" fill="#00FF41" fill-opacity="0.006" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾒ</text>
+<text x="0" y="0" transform="translate(564,799) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾃ</text>
+<text x="0" y="0" transform="translate(564,753) scale(-1,1)" fill="#00FF41" fill-opacity="0.186" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾗ</text>
+<text x="0" y="0" transform="translate(564,707) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｵ</text>
+<text x="0" y="0" transform="translate(564,661) scale(-1,1)" fill="#00FF41" fill-opacity="0.124" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｸ</text>
+<text x="0" y="0" transform="translate(564,615) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾑ</text>
+<text x="0" y="0" transform="translate(564,569) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾋ</text>
+<text x="0" y="0" transform="translate(564,523) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｻ</text>
+<text x="0" y="0" transform="translate(564,477) scale(-1,1)" fill="#00FF41" fill-opacity="0.032" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">7</text>
+<text x="0" y="0" transform="translate(564,431) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾆ</text>
+<text x="0" y="0" transform="translate(564,385) scale(-1,1)" fill="#00FF41" fill-opacity="0.006" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｺ</text>
+<text x="0" y="0" transform="translate(632,403) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">1</text>
+<text x="0" y="0" transform="translate(632,357) scale(-1,1)" fill="#00FF41" fill-opacity="0.189" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｵ</text>
+<text x="0" y="0" transform="translate(632,311) scale(-1,1)" fill="#00FF41" fill-opacity="0.160" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">7</text>
+<text x="0" y="0" transform="translate(632,265) scale(-1,1)" fill="#00FF41" fill-opacity="0.132" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾔ</text>
+<text x="0" y="0" transform="translate(632,219) scale(-1,1)" fill="#00FF41" fill-opacity="0.107" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾕ</text>
+<text x="0" y="0" transform="translate(632,173) scale(-1,1)" fill="#00FF41" fill-opacity="0.083" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">9</text>
+<text x="0" y="0" transform="translate(632,127) scale(-1,1)" fill="#00FF41" fill-opacity="0.062" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">:</text>
+<text x="0" y="0" transform="translate(632,81) scale(-1,1)" fill="#00FF41" fill-opacity="0.044" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾅ</text>
+<text x="0" y="0" transform="translate(684,948) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾐ</text>
+<text x="0" y="0" transform="translate(684,902) scale(-1,1)" fill="#00FF41" fill-opacity="0.186" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾖ</text>
+<text x="0" y="0" transform="translate(684,856) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">Z</text>
+<text x="0" y="0" transform="translate(684,810) scale(-1,1)" fill="#00FF41" fill-opacity="0.124" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾎ</text>
+<text x="0" y="0" transform="translate(684,764) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｵ</text>
+<text x="0" y="0" transform="translate(684,718) scale(-1,1)" fill="#00FF41" fill-opacity="0.073" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">・</text>
+<text x="0" y="0" transform="translate(684,672) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｶ</text>
+<text x="0" y="0" transform="translate(684,626) scale(-1,1)" fill="#00FF41" fill-opacity="0.032" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾂ</text>
+<text x="0" y="0" transform="translate(684,580) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾏ</text>
+<text x="0" y="0" transform="translate(684,534) scale(-1,1)" fill="#00FF41" fill-opacity="0.006" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">3</text>
+<text x="0" y="0" transform="translate(745,973) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">3</text>
+<text x="0" y="0" transform="translate(745,927) scale(-1,1)" fill="#00FF41" fill-opacity="0.154" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾄ</text>
+<text x="0" y="0" transform="translate(745,881) scale(-1,1)" fill="#00FF41" fill-opacity="0.097" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">0</text>
+<text x="0" y="0" transform="translate(745,835) scale(-1,1)" fill="#00FF41" fill-opacity="0.051" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾕ</text>
+<text x="0" y="0" transform="translate(745,789) scale(-1,1)" fill="#00FF41" fill-opacity="0.017" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">2</text>
+<text x="0" y="0" transform="translate(810,712) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">1</text>
+<text x="0" y="0" transform="translate(810,666) scale(-1,1)" fill="#00FF41" fill-opacity="0.182" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾇ</text>
+<text x="0" y="0" transform="translate(810,620) scale(-1,1)" fill="#00FF41" fill-opacity="0.147" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｲ</text>
+<text x="0" y="0" transform="translate(810,574) scale(-1,1)" fill="#00FF41" fill-opacity="0.115" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾎ</text>
+<text x="0" y="0" transform="translate(810,528) scale(-1,1)" fill="#00FF41" fill-opacity="0.086" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾇ</text>
+<text x="0" y="0" transform="translate(810,482) scale(-1,1)" fill="#00FF41" fill-opacity="0.060" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｻ</text>
+<text x="0" y="0" transform="translate(810,436) scale(-1,1)" fill="#00FF41" fill-opacity="0.038" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾘ</text>
+<text x="0" y="0" transform="translate(810,390) scale(-1,1)" fill="#00FF41" fill-opacity="0.020" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｸ</text>
+<text x="0" y="0" transform="translate(810,344) scale(-1,1)" fill="#00FF41" fill-opacity="0.007" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾐ</text>
+<text x="0" y="0" transform="translate(855,449) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">6</text>
+<text x="0" y="0" transform="translate(855,403) scale(-1,1)" fill="#00FF41" fill-opacity="0.182" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾀ</text>
+<text x="0" y="0" transform="translate(855,357) scale(-1,1)" fill="#00FF41" fill-opacity="0.147" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾊ</text>
+<text x="0" y="0" transform="translate(855,311) scale(-1,1)" fill="#00FF41" fill-opacity="0.115" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾊ</text>
+<text x="0" y="0" transform="translate(855,265) scale(-1,1)" fill="#00FF41" fill-opacity="0.086" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾐ</text>
+<text x="0" y="0" transform="translate(855,219) scale(-1,1)" fill="#00FF41" fill-opacity="0.060" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｶ</text>
+<text x="0" y="0" transform="translate(855,173) scale(-1,1)" fill="#00FF41" fill-opacity="0.038" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ｻ</text>
+<text x="0" y="0" transform="translate(855,127) scale(-1,1)" fill="#00FF41" fill-opacity="0.020" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾍ</text>
+<text x="0" y="0" transform="translate(855,81) scale(-1,1)" fill="#00FF41" fill-opacity="0.007" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾊ</text>
+<text x="0" y="0" transform="translate(913,711) scale(-1,1)" fill="#C6F2D0" fill-opacity="0.950" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾔ</text>
+<text x="0" y="0" transform="translate(913,665) scale(-1,1)" fill="#00FF41" fill-opacity="0.172" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾂ</text>
+<text x="0" y="0" transform="translate(913,619) scale(-1,1)" fill="#00FF41" fill-opacity="0.128" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">4</text>
+<text x="0" y="0" transform="translate(913,573) scale(-1,1)" fill="#00FF41" fill-opacity="0.090" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾋ</text>
+<text x="0" y="0" transform="translate(913,527) scale(-1,1)" fill="#00FF41" fill-opacity="0.057" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾇ</text>
+<text x="0" y="0" transform="translate(913,481) scale(-1,1)" fill="#00FF41" fill-opacity="0.030" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">2</text>
+<text x="0" y="0" transform="translate(913,435) scale(-1,1)" fill="#00FF41" fill-opacity="0.010" font-size="44" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" text-anchor="middle">ﾉ</text></g>
+    <rect width="1024" height="1024" fill="#050806" fill-opacity="0.35"/>
+    <g filter="url(#glow)" font-family="'SF Mono', Menlo, 'Hiragino Sans', monospace" font-weight="700">
+      <text x="318" y="620" font-size="380" fill="#00FF41" text-anchor="middle">❯</text>
+      <rect x="520" y="560" width="230" height="58" rx="6" fill="#00FF41"/>
+    </g>
+    <rect width="1024" height="1024" fill="url(#sheen)"/>
+  </g>
+  <rect x="100.5" y="100.5" width="823" height="823" rx="185" fill="none" stroke="#00FF41" stroke-opacity="0.18" stroke-width="2"/>
+</g>
+</svg>

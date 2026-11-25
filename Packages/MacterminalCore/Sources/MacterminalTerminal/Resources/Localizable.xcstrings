@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Couldn’t open %@. Check the shell path in Settings > Advanced." : {
+      "comment" : "Error shown when the configured shell can't be launched; the placeholder is the shell path.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo abrir %@. Revisa la ruta del shell en Ajustes > Avanzado."
+          }
+        }
+      }
+    },
+    "The AI took too long" : {
+      "comment" : "Error shown on the AI suggestion card when the model times out.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La IA tardó demasiado"
+          }
+        }
+      }
+    },
+    "The prompt has changed. Ask for the suggestion again." : {
+      "comment" : "Toast shown when the prompt changed while the AI suggestion was pending.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El prompt ha cambiado. Vuelve a pedir la sugerencia."
+          }
+        }
+      }
+    },
+    "The shell exited at launch (code %@)" : {
+      "comment" : "Error shown when the shell exits right after launching; the placeholder is the exit code or a dash.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El shell terminó al arrancar (código %@)"
+          }
+        }
+      }
+    },
+    "This command can’t be written to the prompt." : {
+      "comment" : "Toast shown when a suggested command is rejected for the prompt.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este comando no se puede escribir en el prompt."
+          }
+        }
+      }
+    },
+    "Wait for the prompt to come back to insert the suggestion." : {
+      "comment" : "Toast shown when the AI suggestion can't be inserted because a command is running.",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espera a que vuelva el prompt para insertar la sugerencia."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
