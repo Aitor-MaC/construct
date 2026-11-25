@@ -1,5 +1,9 @@
 # Cambios
 
+## 1.0.4 — 2026-11-25
+
+- AI requests can be written between quotes, closed or not: `"#help me upgrade powershell"` or `'?? list big files'` no longer fail with "command not found". If the quote closes before the end of the line (`"#" || true`), the line runs as a normal command.
+
 ## 1.0.3 — 2026-11-24
 
 - Ask Apple Intelligence from the prompt with `#text`, `# text` or `?? text` (it used to require exactly `# ` with a space). The request is never run and never enters your zsh history.

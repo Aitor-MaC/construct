@@ -427,14 +427,19 @@ enum ZshScripts {
     }
 
     # REPLY is the request after a leading #, "# " or "??" (blanks trimmed; empty if nothing
-    # follows). Fails for any other line, including shebangs and multi-line buffers, which run as
-    # usual. Only the main prompt takes requests: in a heredoc, an unclosed quote or vared the
-    # line is part of what is being typed.
+    # follows). The whole request may also be wrapped in quotes, closed at the very end or not
+    # closed ("#…" or '?? …'): such a line would only fail as a command named "#…". Fails for any
+    # other line, including
+    # shebangs and multi-line buffers, which run as usual. Only the main prompt takes requests: in
+    # a heredoc, an unclosed quote or vared the line is part of what is being typed.
     _mt_ai_request() {
       builtin emulate -L zsh
       builtin setopt extended_glob
       [[ $CONTEXT == start && $1 != *$'\n'* ]] || return 1
-      local line=${1##[[:space:]]#}
+      local line=${1##[[:space:]]#} quote=
+      case $line in
+        (\"*|\'*) quote=${line[1]}; line=${line[2,-1]}; line=${line##[[:space:]]#} ;;
+      esac
       case $line in
         ('#!'*) return 1 ;;
         ('??'*) line=${line#'??'} ;;
@@ -444,6 +449,12 @@ enum ZshScripts {
       line=${line##[[:space:]]#}
       # Up to the last non-blank: ${line%%[[:space:]]#} is quadratic, and this runs on every key.
       REPLY=${(M)line##*[^[:space:]]}
+      # A quoted request ends at its closing quote (or the quote is still open). If the quote
+      # closes earlier, the rest is shell ("#"; ls) and the line runs as usual.
+      if [[ -n $quote ]]; then
+        [[ $REPLY == *"$quote" ]] && REPLY=${(M)${REPLY%"$quote"}##*[^[:space:]]}
+        [[ $REPLY != *"$quote"* ]] || return 1
+      fi
     }
 
     # The hint goes on a request line with the cursor at its end, and on the line an empty

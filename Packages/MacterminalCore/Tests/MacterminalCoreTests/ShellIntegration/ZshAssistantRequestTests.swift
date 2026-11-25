@@ -25,6 +25,9 @@ import Testing
   @Test(arguments: [
     "#install powershell", "# install powershell", "?? install powershell", "??install powershell",
     "   #   install powershell  ",
+    // Entre comillas (como lo escriben muchos usuarios), cerradas o sin cerrar.
+    ##""#install powershell""##, ##"'?? install powershell'"##, ##"" # install powershell ""##,
+    ##""#install powershell"##,
   ])
   func prefixedLineIsReportedNeverRunAndNotRemembered(line: String) async throws {
     let session = try ZshSession()
@@ -39,7 +42,11 @@ import Testing
   }
 
   /// With bang_hist on, zsh itself stops `#!…` (event not found) before it reaches preexec.
-  @Test(arguments: ["#!/bin/bash", "echo # hola", "ls"])
+  @Test(arguments: [
+    "#!/bin/bash", "echo # hola", "ls", ##"echo "#hola""##, ##""#!/bin/bash""##,
+    // La comilla cierra antes del final: lo que sigue es shell y debe ejecutarse.
+    ##""#" || true"##, ##"'#foo' bar"##,
+  ])
   func ordinaryLinesRunAsAlways(line: String) async throws {
     let session = try ZshSession(zshrc: "unsetopt bang_hist")
     #expect(await session.waitForPrompt(1))
@@ -99,7 +106,7 @@ import Testing
     #expect(milliseconds < 20)
   }
 
-  @Test(arguments: ["#", "# ", "??", "  ?? "])
+  @Test(arguments: ["#", "# ", "??", "  ?? ", ##""#""##])
   func emptyRequestSendsNothingAndShowsTheHint(line: String) async throws {
     let session = try Self.englishSession(zshrc: Self.probe)
     #expect(await session.waitForPrompt(1))
@@ -120,6 +127,15 @@ import Testing
     let shownAt = session.bytes.count
     session.send("\u{7f}\u{14}")
     #expect(await session.waitUntil { $0.text(since: shownAt).contains("PD:[] RH:[]") })
+  }
+
+  /// The hint also shows while a quoted request is being typed (quote still open).
+  @Test(arguments: [##""#install powershell"##, ##"'?? install powershell'"##])
+  func hintShowsForAQuotedRequest(typed: String) async throws {
+    let session = try Self.englishSession(zshrc: Self.probe)
+    #expect(await session.waitForPrompt(1))
+    session.send(typed + "\u{14}")
+    #expect(await session.waitUntil { $0.text.contains("PD:[\(Self.englishHint)]") })
   }
 
   /// A history line starting with # would otherwise be suggested over the hint, and accepting

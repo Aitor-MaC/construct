@@ -132,7 +132,7 @@ greeting-name = Neo
 
 ## AI with `# …`
 
-Type a line that starts with `#`, `# ` or `??` at the prompt, for example `#install powershell with homebrew`, `# find files larger than 100 MB` or `?? compress this folder`, and press `⏎`. While you type, a grey `⏎ ask Apple Intelligence` hint shows that the line will go to the AI; it never runs as a command or enters the shell history. Lines starting with `#!` and lines with several rows run as usual. The system model (Apple Foundation Models, on the Mac itself, no network) suggests a command with an explanation in the language of your request. A card appears: `⏎` inserts it at the prompt, `esc` discards it. It never runs by itself; the final `⏎` is yours. If the model isn’t available, the card explains why (see the AI tab in Settings).
+Type a line that starts with `#`, `# ` or `??` at the prompt, for example `#install powershell with homebrew`, `# find files larger than 100 MB` or `?? compress this folder`, and press `⏎`. Quotes are fine too: `"#install powershell with homebrew"`. While you type, a grey `⏎ ask Apple Intelligence` hint shows that the line will go to the AI; it never runs as a command or enters the shell history. Lines starting with `#!` and lines with several rows run as usual. The system model (Apple Foundation Models, on the Mac itself, no network) suggests a command with an explanation in the language of your request. A card appears: `⏎` inserts it at the prompt, `esc` discards it. It never runs by itself; the final `⏎` is yours. If the model isn’t available, the card explains why (see the AI tab in Settings).
 
 ## More documentation
 

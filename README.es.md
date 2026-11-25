@@ -130,7 +130,7 @@ greeting-name = Neo
 
 ## IA con `# …`
 
-Escribe en el prompt una línea que empiece por `#`, `# ` o `??`, por ejemplo `#instala powershell con homebrew`, `# busca archivos de más de 100 MB` o `?? comprime esta carpeta`, y pulsa `⏎`. Mientras escribes, la pista gris `⏎ preguntar a Apple Intelligence` indica que la línea irá a la IA; nunca se ejecuta como comando ni entra en el historial del shell. Las líneas que empiezan por `#!` y las de varias filas se ejecutan como siempre. El modelo del sistema (Apple Foundation Models, en el propio Mac, sin red) propone un comando con una explicación. Verás una tarjeta: `⏎` lo inserta en el prompt, `esc` lo descarta. Nunca se ejecuta solo; el `⏎` final es tuyo. Si el modelo no está disponible, la tarjeta explica el motivo (ver Ajustes, pestaña IA).
+Escribe en el prompt una línea que empiece por `#`, `# ` o `??`, por ejemplo `#instala powershell con homebrew`, `# busca archivos de más de 100 MB` o `?? comprime esta carpeta`, y pulsa `⏎`. También vale entre comillas: `"#install powershell with homebrew"`. Mientras escribes, la pista gris `⏎ preguntar a Apple Intelligence` indica que la línea irá a la IA; nunca se ejecuta como comando ni entra en el historial del shell. Las líneas que empiezan por `#!` y las de varias filas se ejecutan como siempre. El modelo del sistema (Apple Foundation Models, en el propio Mac, sin red) propone un comando con una explicación. Verás una tarjeta: `⏎` lo inserta en el prompt, `esc` lo descarta. Nunca se ejecuta solo; el `⏎` final es tuyo. Si el modelo no está disponible, la tarjeta explica el motivo (ver Ajustes, pestaña IA).
 
 ## Más documentación
 
